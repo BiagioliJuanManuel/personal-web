@@ -1,5 +1,7 @@
-*{
-    font-family: 'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+
+* {
+    font-family: Josefin Sans;
 }
 
 body {
@@ -13,24 +15,30 @@ body {
     background-color: #928877;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 1rem;
 }
 
-.nav li{
-    padding: 20px;
+.name{
     display: inline-block;
 }
 
-li a {
+a {
+    display: inline-block;
     background-color: #928877;
     text-decoration: none;
-    padding: 20px;
+    padding: 1rem;
 }
 
-li a:hover {
-    background-color: #ff6700;
+a:hover {
+    color: #ff6700;
+}
+
+#perfil{
+    margin: 1rem auto;
+    text-align: center;
 }
 
 #intro{
-    float: left;
+    margin: 1rem;
+    text-align: center;
 }
